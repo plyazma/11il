@@ -1,1 +1,26 @@
+body {
+    background-color: #2e2e2e;
+}
+table {
+    margin: auto;
+    border-spacing: 0px;
+}
+th,td {
+    padding: 6px;
+    border: 0;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    font-size: large;
 
+    border-left: 2px solid #2e2e2e;
+    border-right: 2px solid #2e2e2e;
+}
+a {
+    text-decoration: 0;
+    color: skyblue;
+}
+.borderBottom {
+    border-bottom: 4px solid #2e2e2e;
+}
+/*MK*/
