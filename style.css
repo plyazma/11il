@@ -2,25 +2,25 @@ body {
     background-color: #2e2e2e;
 }
 table {
-    margin: auto;
-    border-spacing: 0px;
+    margin: 0 auto;
+    border-spacing: 1px;
 }
 th,td {
-    padding: 6px;
+    padding: 5px;
     border: 0;
     text-align: center;
     background-color: #121212;
     color: white;
     font-size: large;
-
-    border-left: 2px solid #2e2e2e;
-    border-right: 2px solid #2e2e2e;
+    height: 50px;
+    border-bottom: solid 1px #2e2e2e;
+}
+tr:nth-child(7) th, tr:nth-child(7) td {
+    border-bottom: 0;
 }
 a {
     text-decoration: 0;
-    color: skyblue;
 }
-.borderBottom {
-    border-bottom: 4px solid #2e2e2e;
+img {
+    height: 40px;
 }
-/*MK*/
